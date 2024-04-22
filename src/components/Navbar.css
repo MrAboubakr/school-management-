@@ -1,0 +1,24 @@
+/* Navbar.css */
+nav {
+    background-color: #094246;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: rgb(80, 250, 1);
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+  }
+  

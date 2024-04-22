@@ -1,0 +1,50 @@
+/* Filename: sidebar.css */
+/* 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.home,
+.services,
+.reports,
+.contact,
+.events,
+.support {
+	display: flex;
+	margin-left: 260px;
+	font-size: 2rem;
+} */
+/* Example Sidebar Styles (styles.css) */
+
+ 
+  
+/* Reset CSS */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Sidebar container styles */
+  nav {
+	width: 260px; /* Adjust the width as needed */
+	height: 100vh;
+	background-color: #333;
+	padding: 20px;
+  }
+  
+  /* Sidebar link styles */
+  nav a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-size: 16px; /* Adjust the font size as needed */
+  }
+  
+  /* Active link style */
+  nav a.active {
+	font-weight: bold; /* Change the font weight for active links */
+	color: #ffcc00; /* Change the color for active links */
+  }
